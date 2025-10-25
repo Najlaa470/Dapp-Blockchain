@@ -1,4 +1,4 @@
-#Décentralized Marketplace DApp#
+Décentralized Marketplace DApp
 
 
 **1. Introduction**
