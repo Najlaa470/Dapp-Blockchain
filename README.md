@@ -16,7 +16,7 @@ Les outils principaux incluent Solidity pour l'écriture des contrats, Truffle p
 
 **4. Conception et développement**
 
-L'architecture repose sur une couche smart contracts (noyau métier) écrite en** Solidity** et déployée via **Truffle** sur un **réseau Ganache.** Le contrat principal, ProductMarketplace.sol, définit la structure d'un produit et inclut les fonctions de base pour la vente et l'achat.
+L'architecture repose sur une couche smart contracts (noyau métier) écrite en**Solidity** et déployée via **Truffle** sur un **réseau Ganache.** Le contrat principal, ProductMarketplace.sol, définit la structure d'un produit et inclut les fonctions de base pour la vente et l'achat.
 
 Le front-end, développé avec **React.js**, permet aux utilisateurs d'interagir avec le contrat via **Web3.js**. Les vendeurs peuvent créer des produits, les acheteurs peuvent les consulter et effectuer des achats en Ether via **MetaMask**. Le contrat gère le transfert de fonds et marque les produits comme vendus.
 
